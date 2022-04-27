@@ -1,0 +1,8 @@
+.Footer {
+  margin: 30px 0;
+  background-color: #6c63ff;
+  font-size: 20px;
+}
+.Footer a:hover {
+  color: white;
+}

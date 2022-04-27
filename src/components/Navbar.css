@@ -1,0 +1,10 @@
+.Navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.Navbar .ul {
+  color: black;
+  padding: 0 5px;
+  list-style-type: none;
+}

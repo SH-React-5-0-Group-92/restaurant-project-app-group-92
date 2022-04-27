@@ -1,6 +1,8 @@
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
+import Home from './components/Home'
+import Products from "./components/Products";
 
 function App() {
   return (

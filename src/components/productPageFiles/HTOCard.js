@@ -1,8 +1,11 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
+
 
 const cardInfo=[
   {
-    icon:"vgh",
+    icon:"solid('user-secret')",
     step: "Sign-Up",
     procedure: "You have to createan account first to order your meals convinently and have it delivered"
   },
@@ -28,6 +31,7 @@ const Card1 =(props)=>{
   return(
     <div className="col-lg-3 col-md-6 py-5 px-3 text-center mx-4" style={{ borderRadius: "10px", width: "220px", backgroundColor:"#fff"}}>
       <i className={props.icons}></i>
+      <FontAwesomeIcon icon={props.icon} />
       <h3>{props.steps}</h3>
       <p>{props.procedure}</p>
     </div>

@@ -5,16 +5,17 @@ function Navbar() {
   return (
     <>
       <Nav>
-        <NavLink to="/">Home</NavLink>
         <Bars />
+
         <NavMenu>
+          <NavLink to="/">Home</NavLink>
           <NavLink to="/Products" activestyle>
             Products
           </NavLink>
-          <NavLink to="/about" activestyle>
+          <NavLink to="/About" activestyle>
             About Us
           </NavLink>
-          <NavLink to="/contact" activestyle>
+          <NavLink to="/Contact" activestyle>
             Contact Us
           </NavLink>
         </NavMenu>
